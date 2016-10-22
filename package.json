@@ -1,0 +1,24 @@
+{
+  "name": "gdcr16-game-of-live",
+  "version": "0.0.1",
+  "description": "game-of-live experiments developed at gdcr16",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinisCruz/gdcr16-game-of-live.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinisCruz/gdcr16-game-of-live/issues"
+  },
+  "homepage": "https://github.com/DinisCruz/gdcr16-game-of-live#readme",
+  "dependencies": {
+    "coffee-script": "^1.11.1",
+    "fluentnode": "^0.6.3",
+    "mocha": "^3.1.2"
+  }
+}
