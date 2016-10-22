@@ -22,8 +22,8 @@ describe 'Game_of_Live', ->
       @.cells.first().x.assert_Is x
       @.cells.first().y.assert_Is y
 
-  it 'all_Neighbours', ->
-    @.all_Neighbours{}
+#  it 'all_Neighbours', ->
+#    @.all_Neighbours{}
 
 
 

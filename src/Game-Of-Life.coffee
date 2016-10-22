@@ -10,10 +10,10 @@ class Game_of_Live
     @.cells.push cell
 
 
-  all_Neighbours: (callback)->
-    neighbours: {}
-
-    return neighbours
+#  all_Neighbours: (callback)->
+#    neighbours: {}
+#
+#    return neighbours
 
 
   cell_Neighbours: (cell)->
