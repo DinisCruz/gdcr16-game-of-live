@@ -7,8 +7,13 @@ class Game_of_Live
 
   add_Cell: (x, y)->
     cell = new Cell(x,y)
-    #console.log x
-    #console.log y
+    @.cells.push cell
+
+
+  all_Neighbours: (callback)->
+    neighbours: {}
+
+    return neighbours
 
 
   cell_Neighbours: (cell)->

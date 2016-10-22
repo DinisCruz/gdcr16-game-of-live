@@ -15,8 +15,16 @@ describe 'Game_of_Live', ->
   it 'add_Cell', ->
     x= 100.random()
     y= 123.random()
+    using game_of_Life, ->
+      @.cells.size().assert_Is 0
+      @.add_Cell(x, y)
+      @.cells.size().assert_Is 1
+      @.cells.first().x.assert_Is x
+      @.cells.first().y.assert_Is y
 
-    game_of_Life.add_Cell(x, y)
+  it 'all_Neighbours', ->
+    @.all_Neighbours{}
+
 
 
 
